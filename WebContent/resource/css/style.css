@@ -1,0 +1,207 @@
+.logo{
+	float: left;
+	left: 50px;
+	position: absolute;
+
+}
+.danger{
+	margin-left:450px;
+	color: #E23412;
+	margin-bottom: 150px;
+	margin-top: 100px;
+}
+.aaa{
+	margin-left:490px;
+	color: #E23412;
+	margin-bottom:10px;
+	
+}
+.center{
+	margin-left: 10%;
+	margin-right:10%;
+
+}
+.center2{
+	margin-left: 20%;
+	margin-right:20%;
+
+}
+#qcindex {
+    display:none;
+    }
+#wrapper{
+	background-color: white;
+	position: relative;
+	top: 10px;
+	max-width: 1100px;
+	margin: auto;
+	border: 1px solid #ccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container{
+	
+	clear: both;
+	width: auto;
+	margin-top:150px;
+}
+#main-content{
+	
+	
+}
+div#footer{	
+	margin-top: 100px;
+	clear: both;
+	display: block;
+    background-color: #3f007f;
+	color: white;
+	padding: 5px 10px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.dangnhap{	
+	padding: 10px;
+	float: right;
+	margin-top: 15px;
+}
+.download{
+	float:right;
+	margin-top:50px;
+	padding: 2px;
+	border-top-right-radius: 2px;
+	right: 2px;
+	top: 2202px;
+	/*position: relative;*/
+	
+
+
+}
+input[type=button]{
+	margin-bottom: 10px;
+}
+#slider{
+	clear: both;
+	position: relative;
+	max-height: 50%;
+    max-width: 100%;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel{
+	height: 300px;
+    overflow: hidden;
+}
+.danhsach{
+	
+    
+    margin-bottom: 20px;
+    padding: 20px; 
+}
+.item{
+	display: inline-block;
+	margin: 10px;
+	background-color: yellowgreen;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#menu{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px 0;
+	
+}
+.navbar {
+	background-color: #CC33FF;
+    border-color: #576684;
+}
+.navbar-brand{
+	color: white !important;
+}
+
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+  /* rules for iPad in landscape orientation */
+     .menu-mb {
+    display:inherit;
+    margin-top:40px;
+    }
+    #qcindex {
+    display:none;
+    }
+}
+.xanh {	
+    background-color: #6495ED ;
+}
+.chuoi {	
+    background-color: #CAFF70;
+}
+.hong {	
+    background-color: #9932CC;
+}
+.do {	
+    background-color: red;
+}
+.navbar-default {
+    background-color: #3f007f;
+    border-color: red;
+}
+/******************/
+.khungdangnhap {
+    background-color: #FFE4C4;
+    padding: 1%;
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    /*margin-bottom: 20px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.khungdangnhap h1 {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px dashed;
+}
+.khungdangnhap p {
+    color: white;
+    font-style: italic;
+}
+#main-content {
+    padding: 0 1%;
+}
+#head {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        max-width: 800px !important;
+        margin: 30px auto;
+    }
+}
+
+/* Man hinh co 767 tro xuong */
+@media (max-width: 767px) {
+    .logo {
+        max-width: 100%
+    }
+    .dangnhap input[type=button] {
+        display: inline-block;
+    }
+    .carousel-caption {
+        top: 20%;
+    }
+    .contaner{
+    	max-width: 100%
+    }
+    .container{
+    	max-width: 100%
+    }
+}
+
+/***********Cay***********/
+.chudo{
+  color :red;
+  background: black;
+}
+.chuxanh{
+  color :blue;
+  background: black;
+}

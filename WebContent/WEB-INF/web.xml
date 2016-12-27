@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Finish</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <!-- <servlet>
+        <servlet-name>image</servlet-name>
+        <servlet-class>Nhom17.servet.FileUploadDBServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>image</servlet-name>
+        <url-pattern>/nhap</url-pattern>
+    </servlet-mapping> -->
+    
+    
+  	<servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>Nhom17.servet.Search</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/Search</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>5index.jsp</welcome-file>
+    </welcome-file-list>
+    
+ <!--Start of JSP -->   
+    <servlet>
+        <servlet-name>nhap jsp</servlet-name>
+        <jsp-file>/1nhapminhchung.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>nhap jsp</servlet-name>
+        <url-pattern>/Nhapminhchung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>xem jsp</servlet-name>
+        <jsp-file>/1xemmc.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xem jsp</servlet-name>
+        <url-pattern>/XemMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>dangky jsp</servlet-name>
+        <jsp-file>/2dangky.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dangky jsp</servlet-name>
+        <url-pattern>/DangKy</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>sua jsp</servlet-name>
+        <jsp-file>/2suamc.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sua jsp</servlet-name>
+        <url-pattern>/SuaMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>tao jsp</servlet-name>
+        <jsp-file>/2taomc.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tao jsp</servlet-name>
+        <url-pattern>/TaoMinhChung</url-pattern>
+    </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>xem1 jsp</servlet-name>
+        <jsp-file>/2trangchuquydinh.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xem1 jsp</servlet-name>
+        <url-pattern>/Xem_MinhChung</url-pattern>
+    </servlet-mapping>
+     
+    <servlet>
+        <servlet-name>xem2 jsp</servlet-name>
+        <jsp-file>/3Trangchu_Minh.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xem2 jsp</servlet-name>
+        <url-pattern>/xemMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>kiem jsp</servlet-name>
+        <jsp-file>/3KiemTra.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>kiem jsp</servlet-name>
+        <url-pattern>/KiemTraMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>chitiet jsp</servlet-name>
+        <jsp-file>/4chitiet.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>chitiet jsp</servlet-name>
+        <url-pattern>/ChiTietMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>kiemtra jsp</servlet-name>
+        <jsp-file>/4KiemTra.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>kiemtra jsp</servlet-name>
+        <url-pattern>/KiemTra1MinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>phancong jsp</servlet-name>
+        <jsp-file>/4PhanCong.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>phancong jsp</servlet-name>
+        <url-pattern>/PhanCongMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>tim jsp</servlet-name>
+        <jsp-file>/4Timkiem.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tim jsp</servlet-name>
+        <url-pattern>/TimKiemMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>xem3 jsp</servlet-name>
+        <jsp-file>/4Trangchu_Dai.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xem3 jsp</servlet-name>
+        <url-pattern>/XemMinhchung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>trangchu jsp</servlet-name>
+        <jsp-file>/TrangChu_Admin.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>trangchu jsp</servlet-name>
+        <url-pattern>/TrangChuMinhChung</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>tb jsp</servlet-name>
+        <jsp-file>/Dangkythanhcong.jsp</jsp-file>       
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tb jsp</servlet-name>
+        <url-pattern>/ThongBao</url-pattern>
+    </servlet-mapping>  
+</web-app>
